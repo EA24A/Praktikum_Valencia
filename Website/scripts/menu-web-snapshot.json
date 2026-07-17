@@ -1,0 +1,821 @@
+[
+  {
+    "nameEs": "Café + Baklava",
+    "nameEn": "Coffee + Baklava",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782486227449-es8ap2ttob8.png",
+    "descriptionEs": "Elige entre espresso, cortado, café libanés o té libanés, acompañado de un baklava clásico artesanal. La combinación perfecta para disfrutar de un auténtico momento mediterráneo.",
+    "descriptionEn": "Choose between an espresso, cortado, Lebanese coffee, or Lebanese tea, served with a handmade classic baklava. The perfect pairing for an authentic Mediterranean moment.",
+    "descriptionAr": "قهوة من اختيارك مع قطعة بقلاوة",
+    "nameAr": "قهوة + بقلاوة",
+    "isFeatured": false,
+    "allergens": [
+      "Gluten",
+      "Frutos secos"
+    ]
+  },
+  {
+    "nameEs": "2 Sfiha + Ayran",
+    "nameEn": "2 Sfiha + Ayran",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782488886822-6uv05rqzc9d.png",
+    "descriptionEs": "Dos sfihas con un vaso de ayran (yogur salado)",
+    "descriptionEn": "Two sfihas with a glass of ayran (salted yoghurt drink)",
+    "descriptionAr": "صفيحتان مع كوب أيران (زبادي مملّح)",
+    "nameAr": "2 صفيحة + أيران",
+    "isFeatured": false,
+    "allergens": [
+      "Gluten",
+      "Lácteos"
+    ]
+  },
+  {
+    "nameEs": "Shawarma de carne + Refresco",
+    "nameEn": "Beef Shawarma + Soft Drink",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782486461915-slxjs4qivk.png",
+    "descriptionEs": "Nuestro shawarma de carne libanés, preparado con carne marinada, lechuga fresca, pepinillos y salsa de ajo, acompañado de un refresco a elegir. Un menú completo, sabroso y perfecto para cualquier momento del día.",
+    "descriptionEn": "Our Lebanese beef shawarma, made with marinated beef, fresh lettuce, pickles, and garlic sauce, served with your choice of soft drink. A complete, flavorful meal, perfect any time of the day.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Shawarma de Pollo + Refesco",
+    "nameEn": "Shawarma de Pollo + Soft Drink",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782486616928-ichgsno2klk.png",
+    "descriptionEs": "Nuestro shawarma de pollo libanés, elaborado con pollo marinado, lechuga fresca, pepinillos y salsa de ajo, acompañado de un refresco a elegir. Una opción ligera, deliciosa y llena de sabor.",
+    "descriptionEn": "Our Lebanese chicken shawarma, prepared with marinated chicken, fresh lettuce, pickles, and garlic sauce, served with your choice of soft drink. A light, delicious, and flavorful meal.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Tostada",
+    "nameEn": "Toast",
+    "imageUrl": "/ai-images/cafe-arabe.jpg",
+    "descriptionEs": "Tostada crujiente, ideal para acompañar tu café",
+    "descriptionEn": "Crispy toast, perfect with your coffee",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Bocadillo",
+    "nameEn": "Sandwich",
+    "imageUrl": "/ai-images/r10-wraps-hands-square.jpg",
+    "descriptionEs": "Bocadillo recién preparado con ingredientes de calidad",
+    "descriptionEn": "Freshly prepared sandwich with quality ingredients",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Baklava Clásico",
+    "nameEn": "Classic Baklava",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781015450173-xv7oq12am5i.png",
+    "descriptionEs": "Hojaldre con nueces y miel de naranja",
+    "descriptionEn": "Filo pastry with walnuts and orange blossom honey",
+    "descriptionAr": "عجين فيلو بالجوز وعسل زهر البرتقال",
+    "nameAr": "بقلاوة كلاسيك",
+    "isFeatured": false,
+    "allergens": [
+      "Gluten",
+      "Frutos secos"
+    ]
+  },
+  {
+    "nameEs": "Baklava de Pistacho",
+    "nameEn": "Pistachio Baklava",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781015759837-d4naemsgvlr.PNG",
+    "descriptionEs": "Hojaldre con pistacho y almíbar de agua de rosas",
+    "descriptionEn": "Filo pastry with pistachio and rose water syrup",
+    "descriptionAr": "عجين فيلو بالفستق وشراب ماء الورد",
+    "nameAr": "بقلاوة فستق",
+    "isFeatured": false,
+    "allergens": [
+      "Gluten",
+      "Frutos secos"
+    ]
+  },
+  {
+    "nameEs": "Cerveza Tyris",
+    "nameEn": "Tyris Beer",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781177033433-l2lcck3d36r.webp",
+    "descriptionEs": "Cerveza artesanal valenciana elaborada con ingredientes de alta calidad y reconocida por su sabor equilibrado y refrescante. Su carácter suave y agradable la convierte en el acompañamiento perfecto para disfrutar de la gastronomía mediterránea y libanesa.",
+    "descriptionEn": "A locally crafted Valencian beer known for its balanced flavor, refreshing character, and high-quality ingredients. Smooth and easy to drink, it is the perfect choice to accompany Mediterranean and Lebanese cuisine.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Agua de Valencia",
+    "nameEn": "Agua de Valencia",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782485092371-y037pm4ha7.png",
+    "descriptionEs": "El cóctel más emblemático de Valencia, preparado con zumo de naranja natural, cava y un toque de ginebra y vodka.",
+    "descriptionEn": "Valencia's iconic cocktail made with fresh orange juice, cava, and a touch of gin and vodka.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Caipiroska",
+    "nameEn": "Caipiroska",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782485296011-dtcs41shvk.png",
+    "descriptionEs": "Vodka, lima fresca, azúcar y hielo picado. Un clásico fresco y lleno de sabor.",
+    "descriptionEn": "Vodka, fresh lime, sugar, and crushed ice. A refreshing cocktail with vibrant citrus flavor.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Refrescos",
+    "nameEn": "Soft Drinks",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781175699139-9kbn4igigg6.avif",
+    "descriptionEs": "Refrescos bien fríos para acompañar cualquiera de nuestros platos. Elige entre Coca-Cola, Fanta Naranja, Fanta Limón, Aquarius o Fuse Tea.",
+    "descriptionEn": "Perfectly cooled soft drinks to accompany any of our dishes. Choose from Coca-Cola, Fanta Orange, Fanta Lemon, Aquarius, or Fuse Tea.",
+    "descriptionAr": null,
+    "nameAr": "مشروبات غازية",
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Cerveza Estrella Galicia",
+    "nameEn": "Estrella Galicia Beer",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781176874476-2du6534i0hg.jpg",
+    "descriptionEs": "Cerveza lager premium española elaborada en Galicia con ingredientes cuidadosamente seleccionados y siguiendo un proceso de elaboración tradicional. Refrescante, equilibrada y fácil de disfrutar, destaca por sus suaves notas de malta y su final limpio y agradable",
+    "descriptionEn": "A premium Spanish lager brewed in Galicia using carefully selected ingredients and a traditional brewing process. Crisp, refreshing, and well-balanced, it offers smooth malt notes and a clean finish, making it perfect for any occasion.",
+    "descriptionAr": null,
+    "nameAr": "بيرة",
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Cóctel de Nashi",
+    "nameEn": "Nashi Cocktail",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782484190493-p0a9b2fm3k.png",
+    "descriptionEs": "Pera asiática fresca batida con jengibre",
+    "descriptionEn": "Fresh Asian pear blended with ginger",
+    "descriptionAr": "إجاص آسيوي طازج مع الزنجبيل",
+    "nameAr": "كوكتيل ناشي",
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Rum Cola",
+    "nameEn": "Rum Cola",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782485209783-pjkqtfjx7v.png",
+    "descriptionEs": "Ron, cola, lima fresca y hielo. Un clásico refrescante con el equilibrio perfecto entre dulzor y cítricos.",
+    "descriptionEn": "Rum, cola, fresh lime, and ice. A timeless classic with the perfect balance of sweetness and citrus.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Sfiha",
+    "nameEn": "Sfiha",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781007765748-tqps4rzs6ae.PNG",
+    "descriptionEs": "Miniempanada libanesa de carne especiada",
+    "descriptionEn": "Lebanese mini meat pie with spiced filling",
+    "descriptionAr": "فطيرة لبنانية صغيرة محشوة باللحم المتبَّل",
+    "nameAr": "صفيحة",
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Knafeh",
+    "nameEn": "Knafeh",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781015946450-vc4wdtqd29.jpg",
+    "descriptionEs": "Pastel de queso con kataifi, almíbar y pistacho",
+    "descriptionEn": "Cheese pastry with kataifi, syrup and pistachio",
+    "descriptionAr": "حلوى الجبن بالقطايف والشيرة والفستق",
+    "nameAr": "كنافة",
+    "isFeatured": true,
+    "allergens": [
+      "Gluten",
+      "Lácteos",
+      "Frutos secos"
+    ]
+  },
+  {
+    "nameEs": "Helado de Kashta",
+    "nameEn": "Kashta Ice Cream",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781016632534-0poqrx95kj4.jpg",
+    "descriptionEs": "Helado artesanal de crema de leche libanesa",
+    "descriptionEn": "Artisan Lebanese clotted cream ice cream",
+    "descriptionAr": "بوظة قشطة لبنانية بلدية",
+    "nameAr": "بوظة قشطة",
+    "isFeatured": false,
+    "allergens": [
+      "Lácteos"
+    ]
+  },
+  {
+    "nameEs": "Baklava con Helado de Kashta",
+    "nameEn": "Baklava with Kashta Ice Cream",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781016800416-jvx0obt7r5.png",
+    "descriptionEs": "La combinación perfecta: baklava crujiente y helado frío",
+    "descriptionEn": "The perfect pairing: crispy baklava and cold ice cream",
+    "descriptionAr": "الثنائي المثالي: بقلاوة مقرمشة مع بوظة باردة",
+    "nameAr": "بقلاوة مع بوظة قشطة",
+    "isFeatured": true,
+    "allergens": [
+      "Gluten",
+      "Lácteos",
+      "Frutos secos"
+    ]
+  },
+  {
+    "nameEs": "Café Espresso",
+    "nameEn": "Espresso",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781081956472-oi33s3x84jn.avif",
+    "descriptionEs": "Café intenso y aromático elaborado al momento con granos de café de alta calidad cuidadosamente seleccionados. De cuerpo completo y sabor concentrado, se caracteriza por su cremosa capa superior y su auténtico carácter italiano. Ideal para disfrutar de un café puro y lleno de energía.",
+    "descriptionEn": "A rich and aromatic Italian-style coffee, freshly brewed from finely ground premium coffee beans. Full-bodied and intense, with a smooth crema on top, it delivers a bold flavor and the perfect energy boost at any time of day.",
+    "descriptionAr": null,
+    "nameAr": "إسبريسو",
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Café Cortado",
+    "nameEn": "Cortado",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781081990837-u3uoynr4qu.jpg",
+    "descriptionEs": "Café elaborado con un espresso intenso y una pequeña cantidad de leche vaporizada. Su equilibrio perfecto entre la fuerza del café y la suavidad de la leche ofrece una experiencia cremosa, aromática y llena de sabor. Ideal para quienes disfrutan de un café con carácter, pero más suave que un espresso.",
+    "descriptionEn": "A perfectly balanced coffee made with a shot of rich espresso and a small amount of steamed milk. Smooth and aromatic, it preserves the intensity of the coffee while softening its acidity, creating a creamy and well-rounded flavor.",
+    "descriptionAr": null,
+    "nameAr": "كورتادو",
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Café Libanes",
+    "nameEn": "Libanese Coffe",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781168855506-gs4xrjxdnf9.jpg",
+    "descriptionEs": "Café tradicional de Oriente Medio elaborado con granos de café finamente molidos y preparado lentamente para obtener un sabor intenso y aromático. Servido al auténtico estilo libanés, destaca por su cuerpo, carácter y por representar una de las tradiciones más apreciadas de la hospitalidad libanesa.",
+    "descriptionEn": "A traditional Middle Eastern coffee prepared with finely ground coffee beans and slowly brewed to achieve a rich, intense flavor. Served in the authentic Lebanese style, it is aromatic, full-bodied, and offers a unique coffee experience deeply rooted in Lebanese culture and hospitality.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Fatayer espinaca",
+    "nameEn": "Fatayer spinach",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781007908841-j0rsh7xah1n.jpeg",
+    "descriptionEs": "Pastelito tradicional libanés relleno de una deliciosa mezcla de espinacas frescas, cebolla, zumo de limón y hierbas aromáticas. Horneado hasta alcanzar un acabado dorado y crujiente, combina perfectamente sabores frescos y ligeramente cítricos, siendo una opción vegetariana muy popular.",
+    "descriptionEn": "A traditional Lebanese pastry filled with a delicious blend of fresh spinach, onions, lemon juice, and aromatic herbs. Baked until golden and flaky, it offers a perfect balance of savory and tangy flavors, making it a popular vegetarian choice.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Iced Latte",
+    "nameEn": "Iced Latte",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781169272586-po3x4quxm5n.jpg",
+    "descriptionEs": "Una refrescante combinación de espresso, leche fría y hielo que da como resultado un café suave, cremoso y perfectamente equilibrado. Servido bien frío, es la opción ideal para disfrutar de un café refrescante en cualquier momento del día.",
+    "descriptionEn": "A refreshing blend of rich espresso, cold milk, and ice, creating a smooth, creamy, and perfectly balanced coffee. Served chilled, it is the ideal choice for coffee lovers looking for a cool and refreshing drink.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Iced Latte Biscoff",
+    "nameEn": "Biscoff Iced Latte",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781169386045-tdhdg0zmjgn.jpg",
+    "descriptionEs": "Una deliciosa combinación de espresso, leche fría, hielo y el inconfundible sabor caramelizado de las galletas Biscoff. Cremoso, refrescante y lleno de sabor, ofrece el equilibrio perfecto entre el dulzor y la intensidad del café.",
+    "descriptionEn": "A delicious combination of rich espresso, cold milk, ice, and the distinctive caramelized flavor of Biscoff biscuits. Smooth, creamy, and indulgent, this refreshing coffee offers the perfect balance of sweetness and coffee intensity.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Pistachio Iced Latte",
+    "nameEn": "Pistachio Iced Latte",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781169680061-piehqm14k1a.jpg",
+    "descriptionEs": "Una refrescante combinación de espresso, leche fría, hielo y crema de pistacho de alta calidad. Cremoso, suave y con un delicado sabor a pistacho, este café frío ofrece una experiencia única y llena de sabor en cada sorbo.",
+    "descriptionEn": "A refreshing blend of rich espresso, cold milk, ice, and premium pistachio cream. Smooth, creamy, and delicately nutty, this indulgent iced coffee delivers a perfectly balanced flavor with a luxurious pistachio finish.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Salted Caramel Latte",
+    "nameEn": "Salted Caramel Latte",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782480077372-ls8njfnez48.jpg",
+    "descriptionEs": "Espresso, leche y caramelo salado que combina el dulzor con un delicado toque salino.",
+    "descriptionEn": "Espresso, milk, and salted caramel combining sweetness with a delicate salty finish.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Vanilla Iced Latte",
+    "nameEn": "Vanilla Iced Latte",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782480231349-m7lyo0mvp6.jpg",
+    "descriptionEs": "Espresso con leche y un delicado aroma de vainilla. Cremoso, suave y refrescante.",
+    "descriptionEn": "Espresso with milk and a delicate touch of vanilla. Creamy, smooth, and refreshing.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Mocha Iced Latte",
+    "nameEn": "Mocha Iced Latte",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782480347427-1k82klrfi5s.jpg",
+    "descriptionEs": "Espresso, leche y chocolate premium, servido con hielo para un sabor intenso y cremoso.",
+    "descriptionEn": "Espresso, milk, and premium chocolate served over ice for a rich and creamy flavor.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Spanish Latte",
+    "nameEn": "Spanish Latte",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782480538522-pi7q665x07f.jpg",
+    "descriptionEs": "Espresso con leche fresca y leche condensada para un café extra cremoso y ligeramente dulce.",
+    "descriptionEn": "Espresso with fresh milk and sweetened condensed milk for an extra creamy, lightly sweet coffee.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Falafel",
+    "nameEn": "Falafel",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781008121757-buywnixq1ok.jpeg",
+    "descriptionEs": "Croquetas de garbanzo crujientes con salsa tahini",
+    "descriptionEn": "Crispy chickpea fritters with tahini sauce",
+    "descriptionAr": "أقراص الحمص المقرمشة مع صلصة الطحينة",
+    "nameAr": "فلافل",
+    "isFeatured": true,
+    "allergens": [
+      "Sésamo"
+    ]
+  },
+  {
+    "nameEs": "Affogato Freddo",
+    "nameEn": "Affogato Freddo",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782481244283-6wzdrvrn54f.jpg",
+    "descriptionEs": "Helado de vainilla cubierto con espresso recién preparado. Un clásico italiano irresistible.",
+    "descriptionEn": "Vanilla ice cream topped with freshly brewed espresso. An irresistible Italian classic.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Iced Americano",
+    "nameEn": "Iced Americano",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782481372859-hz7vl863km.jpg",
+    "descriptionEs": "Doble espresso con agua fría y hielo. Ligero, intenso y muy refrescante.",
+    "descriptionEn": "Double espresso with cold water and ice. Light, bold, and incredibly refreshing.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Freddo Cappuccino",
+    "nameEn": "Freddo Cappuccino",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782481452643-x612y9dv7m.jpg",
+    "descriptionEs": "Doble espresso con una suave espuma de leche fría y aterciopelada.",
+    "descriptionEn": "Double espresso topped with smooth, velvety cold milk foam.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Freddo Espresso",
+    "nameEn": "Freddo Espresso",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782481545801-3wlgzrtgy79.jpg",
+    "descriptionEs": "Doble espresso agitado con hielo para una textura suave, intensa y refrescante.",
+    "descriptionEn": "Double espresso shaken with ice for a smooth, bold, and refreshing coffee.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Café solo",
+    "nameEn": "Espresso",
+    "imageUrl": "/ai-images/cafe-arabe.jpg",
+    "descriptionEs": "Café intenso y aromático elaborado al momento con granos de café de alta calidad cuidadosamente seleccionados. De cuerpo completo y sabor concentrado, se caracteriza por su cremosa capa superior y su auténtico carácter italiano. Ideal para disfrutar de un café puro y lleno de energía.",
+    "descriptionEn": "A rich and aromatic Italian-style coffee, freshly brewed from finely ground premium coffee beans. Full-bodied and intense, with a smooth crema on top, it delivers a bold flavor and the perfect energy boost at any time of day.",
+    "descriptionAr": null,
+    "nameAr": "إسبريسو",
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Cortado",
+    "nameEn": "Cortado",
+    "imageUrl": "/ai-images/cafe-arabe.jpg",
+    "descriptionEs": "Café elaborado con un espresso intenso y una pequeña cantidad de leche vaporizada. Su equilibrio perfecto entre la fuerza del café y la suavidad de la leche ofrece una experiencia cremosa, aromática y llena de sabor. Ideal para quienes disfrutan de un café con carácter, pero más suave que un espresso.",
+    "descriptionEn": "A perfectly balanced coffee made with a shot of rich espresso and a small amount of steamed milk. Smooth and aromatic, it preserves the intensity of the coffee while softening its acidity, creating a creamy and well-rounded flavor.",
+    "descriptionAr": null,
+    "nameAr": "كورتادو",
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Matcha Latte",
+    "nameEn": "Matcha Latte",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782481180101-29zk5ma256h.jpg",
+    "descriptionEs": "Matcha japonés premium con leche y hielo. Cremoso, delicado y lleno de energía natural.",
+    "descriptionEn": "Premium Japanese matcha with milk and ice. Creamy, delicate, and naturally energizing.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Iced Strawberry Matcha",
+    "nameEn": "Iced Strawberry Matcha",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782481807202-fgekq9oxmgt.jpg",
+    "descriptionEs": "Capas de puré de fresa, leche y matcha premium para una combinación fresca y afrutada.",
+    "descriptionEn": "Layers of strawberry purée, milk, and premium matcha for a fresh and fruity combination.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Mango Matcha",
+    "nameEn": "Mango Matcha",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782481829915-x22hw51s5in.jpg",
+    "descriptionEs": "Cremoso matcha premium sobre puré de mango tropical. Dulce, exótico y refrescante.",
+    "descriptionEn": "Creamy premium matcha over tropical mango purée. Sweet, exotic, and refreshing.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Lemonade Fenicia",
+    "nameEn": "Lemonade Fenicia",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782481853333-wnrd4vs4mud.jpg",
+    "descriptionEs": "Limonada artesanal con limón fresco, menta y hielo. Refrescante al estilo Casa Fenicia.",
+    "descriptionEn": "Homemade lemonade with fresh lemon, mint, and ice. A refreshing Casa Fenicia signature.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Café afogatto",
+    "nameEn": "Café afogatto",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782481244283-6wzdrvrn54f.jpg",
+    "descriptionEs": "Helado de vainilla cubierto con espresso recién preparado. Un clásico italiano irresistible.",
+    "descriptionEn": "Vanilla ice cream topped with freshly brewed espresso. An irresistible Italian classic.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Vermouth",
+    "nameEn": "Vermouth",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781180456348-5bsn3484bwi.jpg",
+    "descriptionEs": "Clásico aperitivo mediterráneo elaborado a partir de vino macerado con una selección de hierbas aromáticas, especias y botánicos. Equilibrado, aromático y lleno de personalidad, se disfruta tradicionalmente con hielo y una rodaja de naranja antes de las comidas.",
+    "descriptionEn": "A classic Mediterranean aperitif made from fortified wine infused with a selection of aromatic herbs, spices, and botanicals. Smooth, balanced, and full of character, it can be enjoyed over ice with a slice of orange for the perfect pre-meal drink.",
+    "descriptionAr": "فواكه موسمية طازجة معصورة في الحال",
+    "nameAr": "كوكتيل فواكه",
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Falafel",
+    "nameEn": "Falafel",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781015645938-wrc4eskrpa.jpeg",
+    "descriptionEs": "Croquetas de garbanzo crujientes con salsa tahini",
+    "descriptionEn": "Crispy chickpea fritters with tahini sauce",
+    "descriptionAr": "أقراص الحمص المقرمشة مع صلصة الطحينة",
+    "nameAr": "فلافل",
+    "isFeatured": true,
+    "allergens": [
+      "Sésamo"
+    ]
+  },
+  {
+    "nameEs": "Cóctel de Aguacate",
+    "nameEn": "Avocado Cocktail",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782484090719-heww6747qhj.png",
+    "descriptionEs": "Aguacate cremoso con leche y miel",
+    "descriptionEn": "Creamy avocado with milk and honey",
+    "descriptionAr": "أفوكادو كريمي بالحليب والعسل",
+    "nameAr": "كوكتيل أفوكادو",
+    "isFeatured": false,
+    "allergens": [
+      "Lácteos"
+    ]
+  },
+  {
+    "nameEs": "Gin Tonic",
+    "nameEn": "Gin Tonic",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782485151583-sjokvbby4hh.png",
+    "descriptionEs": "Ginebra premium con tónica bien fría, hielo y un toque de lima.",
+    "descriptionEn": "Premium gin with chilled tonic water, ice, and a hint of fresh lime.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Limonada Fenicia",
+    "nameEn": "Fenician Lemonade",
+    "imageUrl": "/ai-images/te-de-menta.jpg",
+    "descriptionEs": "Con menta fresca y agua de azahar",
+    "descriptionEn": "With fresh mint and orange blossom water",
+    "descriptionAr": "بالنعناع الطازج وماء زهر البرتقال",
+    "nameAr": "ليموناضة فينيسيا",
+    "isFeatured": true,
+    "allergens": []
+  },
+  {
+    "nameEs": "Aperol Spritz",
+    "nameEn": "Aperol Spritz",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1782485238967-y00tib21rln.png",
+    "descriptionEs": "Aperol, Prosecco y soda, servido con hielo y una rodaja de naranja. Ligero, refrescante y perfecto para el aperitivo.",
+    "descriptionEn": "Aperol, Prosecco, and soda served over ice with a slice of orange. Light, refreshing, and perfect as an aperitif.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Fatayer de Espinaca",
+    "nameEn": "Spinach Fatayer",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781015686741-4dvkucwj2qn.jpeg",
+    "descriptionEs": "Triángulo de hojaldre relleno de espinacas y limón",
+    "descriptionEn": "Pastry triangle filled with spinach and lemon",
+    "descriptionAr": "مثلثات عجين محشوة بالسبانخ والليمون",
+    "nameAr": "فطاير السبانخ",
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Kibbeh",
+    "nameEn": "Kibbeh",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781015662394-ldii7ojjkxh.jpeg",
+    "descriptionEs": "Croqueta de cordero con bulgur y especias",
+    "descriptionEn": "Lamb croquette with bulgur and spices",
+    "descriptionAr": "كرات لحم الضأن بالبرغل والبهارات",
+    "nameAr": "كبة",
+    "isFeatured": true,
+    "allergens": [
+      "Gluten"
+    ]
+  },
+  {
+    "nameEs": "Mini Manakish",
+    "nameEn": "Mini Manakish",
+    "imageUrl": "/ai-images/05-sfiha-closeup.jpg",
+    "descriptionEs": "Zaatar / Queso",
+    "descriptionEn": "Za'atar / Cheese",
+    "descriptionAr": "زعتر / جبنة",
+    "nameAr": "مناقيش صغيرة",
+    "isFeatured": false,
+    "allergens": [
+      "Gluten",
+      "Lácteos"
+    ]
+  },
+  {
+    "nameEs": "Hummus",
+    "nameEn": "Hummus",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781015590327-iqv4sryb85o.jpg",
+    "descriptionEs": "Crema de garbanzos con aceite de oliva y pimentón",
+    "descriptionEn": "Chickpea cream with olive oil and smoked paprika",
+    "descriptionAr": "كريمة الحمص بزيت الزيتون والفلفل الأحمر",
+    "nameAr": "حمص",
+    "isFeatured": true,
+    "allergens": [
+      "Sésamo"
+    ]
+  },
+  {
+    "nameEs": "Iced Latte Oreo",
+    "nameEn": "Oreo Iced Latte",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781169522094-ocqeh9j9l5.jpg",
+    "descriptionEs": "Una deliciosa mezcla de espresso, leche fría, hielo y galletas Oreo trituradas. Cremoso, refrescante y con un irresistible toque de chocolate, es la combinación perfecta para los amantes del café y las galletas.",
+    "descriptionEn": "A creamy and refreshing blend of rich espresso, cold milk, ice, and crushed Oreo cookies. Smooth, indulgent, and full of chocolatey flavor, it's the perfect treat for coffee and cookie lovers alike.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Café con leche",
+    "nameEn": "Coffe Latte",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781082164385-rl8e2nmce1q.avif",
+    "descriptionEs": "La combinación perfecta de un espresso aromático y leche vaporizada, logrando un café suave, cremoso y equilibrado. Un clásico imprescindible, ideal para el desayuno o para disfrutar en cualquier momento del día.",
+    "descriptionEn": "A comforting blend of rich espresso and perfectly steamed milk, creating a smooth, creamy, and well-balanced coffee. A classic favorite, ideal for breakfast or any time of the day.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Café Cremaet",
+    "nameEn": "Café Cremaet",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781168286000-f5uvwbclx4j.jpg",
+    "descriptionEs": "Especialidad valenciana con ron y canela",
+    "descriptionEn": "Valencian specialty with rum and cinnamon",
+    "descriptionAr": "تخصص فالنسياني بالروم والقرفة",
+    "nameAr": "كريمت",
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Agua",
+    "nameEn": "Water",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781175456707-0cn3dihd92c.webp",
+    "descriptionEs": "Agua mineral",
+    "descriptionEn": "Mineral Water",
+    "descriptionAr": null,
+    "nameAr": "ماء",
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Sfiha",
+    "nameEn": "Sfiha",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781015701803-y6elyupliu.PNG",
+    "descriptionEs": "Miniempanada libanesa de carne especiada",
+    "descriptionEn": "Lebanese mini meat pie with spiced filling",
+    "descriptionAr": "فطيرة لبنانية صغيرة محشوة باللحم المتبَّل",
+    "nameAr": "صفيحة",
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Hummus con Carne",
+    "nameEn": "Hummus with Beef",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781015081432-5e1z7kewdcy.webp",
+    "descriptionEs": "Hummus casero cubierto de carne picada especiada",
+    "descriptionEn": "House hummus topped with spiced minced meat",
+    "descriptionAr": "حمص بيتي باللحم المفروم المتبَّل",
+    "nameAr": "حمص باللحم",
+    "isFeatured": true,
+    "allergens": [
+      "Sésamo"
+    ]
+  },
+  {
+    "nameEs": "Arayes Kafta (Pan de Pita Libanés Relleno de Carne)",
+    "nameEn": "Arayes Kafta (Grilled Lebanese Meat Pita)",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781014008680-76ilvsw2hsb.jpg",
+    "descriptionEs": "Pan de pita libanés relleno de carne picada de ternera, perejil fresco, cebolla y especias aromáticas, cocinado a la parrilla hasta quedar dorado y crujiente. Jugoso por dentro y crujiente por fuera, es uno de los platos más populares de la cocina libanesa, ideal para compartir o disfrutar como plato principal.",
+    "descriptionEn": "A traditional Lebanese pita stuffed with seasoned minced beef, fresh parsley, onions, and aromatic spices, then grilled until crispy and golden. Juicy on the inside and crunchy on the outside, Arayes is a flavorful Lebanese favorite perfect for sharing or enjoying as a main dish.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Tarta de queso",
+    "nameEn": "Cheesecake",
+    "imageUrl": "/ai-images/knafeh.jpg",
+    "descriptionEs": "Tarta de queso cremosa, elaborada en casa",
+    "descriptionEn": "Creamy homemade cheesecake",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Shawarma de Carne al Estilo Libanés",
+    "nameEn": "Lebanese Beef Shawarma",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781008715851-4qeho7z7lz3.jpeg",
+    "descriptionEs": "Finas láminas de carne de ternera marinada y cocinada lentamente con auténticas especias libanesas, envueltas en pan de pita libanés recién hecho junto con verduras frescas, perejil, pepinillos, cebolla y nuestra salsa especial de ajo y tahini. Un clásico de la gastronomía callejera libanesa, lleno de sabor y tradición.",
+    "descriptionEn": "Thinly sliced marinated beef, slow-cooked and seasoned with authentic Lebanese spices, wrapped in warm Lebanese pita bread with fresh vegetables, parsley, pickles, onions, and our signature garlic-tahini sauce. A rich and flavorful Lebanese street food classic.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": true,
+    "allergens": []
+  },
+  {
+    "nameEs": "Shawarma de Pollo al Estilo Libanés",
+    "nameEn": "Lebanese Chicken Shawarma",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781013714345-5ksvf7pgez.WEBP",
+    "descriptionEs": "Jugoso pollo marinado con una mezcla de auténticas especias libanesas, cocinado lentamente hasta alcanzar todo su sabor y servido en pan de pita libanés recién hecho con lechuga fresca, pepinillos y nuestra salsa casera de ajo. Un clásico de la cocina callejera libanesa, lleno de sabor y tradición.",
+    "descriptionEn": "Tender chicken marinated in a blend of authentic Lebanese spices, slow-cooked to perfection and wrapped in warm Lebanese pita bread with crisp lettuce, pickles, and our homemade garlic sauce. A delicious and authentic Lebanese street food favorite.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Brownie",
+    "nameEn": "Brownie",
+    "imageUrl": "/ai-images/13-baklava-classic.jpg",
+    "descriptionEs": "Brownie de chocolate intenso, servido en el local",
+    "descriptionEn": "Rich chocolate brownie, served in-house",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Shawarma de Pollo",
+    "nameEn": "Chicken Shawarma",
+    "imageUrl": "/ai-images/shawarma-de-pollo.jpg",
+    "descriptionEs": "Plato principal con pollo marinado y guarnición",
+    "descriptionEn": "Main dish with marinated chicken and sides",
+    "descriptionAr": "طبق رئيسي مع دجاج متبَّل وطرق جانبية",
+    "nameAr": "شاورما دجاج",
+    "isFeatured": true,
+    "allergens": [
+      "Gluten"
+    ]
+  },
+  {
+    "nameEs": "Shawarma de Carne",
+    "nameEn": "Beef Shawarma",
+    "imageUrl": "/ai-images/shawarma-de-ternera.jpg",
+    "descriptionEs": "Plato principal con carne de ternera especiada",
+    "descriptionEn": "Main dish with spiced beef",
+    "descriptionAr": "طبق رئيسي مع لحم بقري متبَّل",
+    "nameAr": "شاورما لحم",
+    "isFeatured": true,
+    "allergens": [
+      "Gluten"
+    ]
+  },
+  {
+    "nameEs": "Kibbeh",
+    "nameEn": "Kibbeh",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781008178886-lsea5s7kwve.jpeg",
+    "descriptionEs": "Croqueta de cordero con bulgur y especias",
+    "descriptionEn": "Lamb croquette with bulgur and spices",
+    "descriptionAr": "كرات لحم الضأن بالبرغل والبهارات",
+    "nameAr": "كبة",
+    "isFeatured": true,
+    "allergens": [
+      "Gluten"
+    ]
+  },
+  {
+    "nameEs": "Tabbouleh",
+    "nameEn": "Tabbouleh",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781008239386-v8bm6hd16wn.jpeg",
+    "descriptionEs": "Ensalada de perejil fresco, tomate, bulgur, limón y aceite de oliva",
+    "descriptionEn": "Fresh parsley salad with tomato, bulgur, lemon and olive oil",
+    "descriptionAr": "سلطة بقدونس طازج مع البندورة والبرغل والليمون وزيت الزيتون",
+    "nameAr": "تبولة",
+    "isFeatured": false,
+    "allergens": [
+      "Gluten"
+    ]
+  },
+  {
+    "nameEs": "Hummus",
+    "nameEn": "Hummus",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781008291730-aj1z2s7fytn.jpg",
+    "descriptionEs": "Crema de garbanzos con aceite de oliva y pimentón",
+    "descriptionEn": "Chickpea cream with olive oil and smoked paprika",
+    "descriptionAr": "كريمة الحمص بزيت الزيتون والفلفل الأحمر",
+    "nameAr": "حمص",
+    "isFeatured": true,
+    "allergens": [
+      "Sésamo"
+    ]
+  },
+  {
+    "nameEs": "Hojas de parra",
+    "nameEn": "Warak Enab",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781008399585-wrgouawktk7.jpeg",
+    "descriptionEs": "Delicadas hojas de parra enrolladas a mano y rellenas de una sabrosa mezcla de arroz, tomate, perejil y hierbas aromáticas. Preparadas al estilo tradicional libanés y servidas frías, ofrecen un auténtico sabor mediterráneo lleno de frescura y tradición.",
+    "descriptionEn": "Tender vine leaves hand-rolled and filled with a flavorful mixture of rice, tomatoes, parsley, and aromatic herbs. Prepared in the traditional Lebanese style and served cold, they offer a refreshing and authentic Mediterranean taste.",
+    "descriptionAr": null,
+    "nameAr": null,
+    "isFeatured": false,
+    "allergens": []
+  },
+  {
+    "nameEs": "Hummus con Pollo",
+    "nameEn": "Hummus with Chicken",
+    "imageUrl": "https://yqwm4yj2vw6wdlds.public.blob.vercel-storage.com/menu/1781014749784-nuwynw0xb7.webp",
+    "descriptionEs": "Hummus casero cubierto de pollo a la plancha",
+    "descriptionEn": "House hummus topped with grilled chicken",
+    "descriptionAr": "حمص بيتي بالدجاج المشوي",
+    "nameAr": "حمص بالدجاج",
+    "isFeatured": true,
+    "allergens": [
+      "Sésamo"
+    ]
+  }
+]

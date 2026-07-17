@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "menu": "Carta",
+    "order": "Pedir",
+    "reserve": "Reservar",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "delivery": "Pedir a domicilio",
+    "pickup": "Recoger en local"
+  },
+  "home": {
+    "hero": {
+      "tagline": "Sabores del Líbano en el corazón de Valencia",
+      "subtitle": "Bistró & Café con alma mediterránea, ingredientes frescos y recetas de generación en generación.",
+      "cta_order": "Pedir para recoger",
+      "cta_reserve": "Reservar mesa",
+      "cta_delivery": "Pedir por Glovo"
+    },
+    "featured": {
+      "title": "Nuestros favoritos",
+      "subtitle": "Una selección de los platos que más enamoran a nuestros clientes"
+    },
+    "story": {
+      "title": "Una historia que sabe a hogar",
+      "text": "Casa Fenicia nació del amor por la cocina libanesa y la hospitalidad mediterránea. Cada plato cuenta una historia, cada ingrediente viene seleccionado con cuidado. Te invitamos a vivir una experiencia gastronómica única en el corazón de Ciutat Vella.",
+      "cta": "Conocer más"
+    },
+    "last_hour": {
+      "title": "¡Última hora!",
+      "subtitle": "Ofertas especiales disponibles solo hasta {cutoff}",
+      "countdown": "Se acaba en",
+      "sold_out": "Agotado"
+    }
+  },
+  "menuqr": {
+    "title": "Nuestra Carta",
+    "subtitle": "Cocina libanesa auténtica en el corazón de Valencia",
+    "address": "C/ de la Corretgeria, 4 · Ciutat Vella · Valencia",
+    "phone": "+34 600 345 055",
+    "hours": "Lun–Dom 9:00–22:00",
+    "print_btn": "Imprimir / Guardar como PDF",
+    "lang_switcher": "Idioma",
+    "from": "Desde",
+    "price_note": "Precios incluyen IVA"
+  },
+  "menu": {
+    "title": "Nuestra Carta",
+    "subtitle": "Cocina libanesa auténtica, elaborada con ingredientes frescos cada día",
+    "all": "Todo",
+    "add_to_cart": "Añadir",
+    "select_variant": "Selecciona una opción",
+    "select_modifiers": "Personaliza tu pedido",
+    "required": "Obligatorio",
+    "optional": "Opcional",
+    "allergens": "Alérgenos"
+  },
+  "order": {
+    "title": "¿Cómo quieres tu pedido?",
+    "pickup_title": "Recoger en local",
+    "pickup_desc": "Prepara tu pedido y recógelo cuando quieras. Pago online obligatorio.",
+    "delivery_title": "A domicilio vía Glovo",
+    "delivery_desc": "Pedidos a domicilio gestionados a través de Glovo.",
+    "go_glovo": "Ir a Glovo",
+    "cart": "Tu pedido",
+    "cart_empty": "Tu carrito está vacío",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "checkout": "Pagar ahora",
+    "your_details": "Tus datos",
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "notes": "Notas para el pedido (opcional)",
+    "pickup_time": "Hora de recogida aproximada",
+    "order_placed": "¡Pedido realizado!",
+    "order_confirmed": "Hemos recibido tu pedido. Te enviaremos un email con los detalles.",
+    "order_number": "Número de pedido"
+  },
+  "reserve": {
+    "title": "Reservar mesa",
+    "subtitle": "Reserva tu mesa en Casa Fenicia y disfruta de una experiencia única",
+    "date": "Fecha",
+    "time": "Hora",
+    "guests": "Número de personas",
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "notes": "Comentarios o peticiones especiales (opcional)",
+    "confirm": "Confirmar reserva",
+    "no_slots": "No hay disponibilidad para esta fecha. Por favor, elige otro día.",
+    "success_title": "¡Reserva recibida!",
+    "success_text": "Te enviaremos un email de confirmación en breve. Si tienes alguna pregunta, llámanos al +34 600 345 055.",
+    "guests_label": "{n} persona | {n} personas"
+  },
+  "about": {
+    "title": "Nuestra historia",
+    "subtitle": "Pasión por la cocina libanesa en el corazón de Valencia"
+  },
+  "contact": {
+    "title": "Encuéntranos",
+    "address": "C/ de la Corretgeria, 4, Ciutat Vella, 46001 València",
+    "phone": "+34 600 345 055",
+    "hours_title": "Horario",
+    "hours": "Lunes a domingo: 9:00 – 22:00",
+    "follow": "Síguenos"
+  },
+  "footer": {
+    "tagline": "Bistró & Café Libanés · Valencia",
+    "rights": "Todos los derechos reservados"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ha ocurrido un error",
+    "back": "Volver",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "confirm": "Confirmar",
+    "close": "Cerrar"
+  }
+}

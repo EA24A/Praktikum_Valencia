@@ -1,0 +1,352 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ─── Auth ───────────────────────────────────────────────────────────────────
+
+model AdminUser {
+  id            String    @id @default(cuid())
+  name          String
+  email         String    @unique
+  password      String
+  role          AdminRole @default(STAFF)
+  isActive      Boolean   @default(true)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@map("admin_users")
+}
+
+enum AdminRole {
+  OWNER
+  MANAGER
+  STAFF
+}
+
+// ─── Menu ────────────────────────────────────────────────────────────────────
+
+model MenuCategory {
+  id           String     @id @default(cuid())
+  nameEs       String
+  nameEn       String
+  nameAr       String?
+  slug         String     @unique
+  displayOrder Int        @default(0)
+  isActive     Boolean    @default(true)
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+
+  items        MenuItem[]
+
+  @@map("menu_categories")
+}
+
+model MenuItem {
+  id              String        @id @default(cuid())
+  categoryId      String
+  nameEs          String
+  nameEn          String
+  nameAr          String?
+  descriptionEs   String?
+  descriptionEn   String?
+  descriptionAr   String?
+  basePrice       Decimal       @db.Decimal(10, 2)
+  taxRate         Decimal       @default(10) @db.Decimal(5, 2)
+  imageUrl        String?
+  isAvailable     Boolean       @default(true)
+  posOnly         Boolean       @default(false)
+  posProductId    String?       @unique
+  isFeatured      Boolean       @default(false)
+  displayOrder    Int           @default(0)
+  syncedFromPosAt DateTime?
+  allergens       String[]
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  category        MenuCategory        @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  variants        ItemVariant[]
+  modifierGroups  ModifierGroup[]
+  orderItems      OrderItem[]
+  comboItems      ComboItem[]
+  lastHourItems   LastHourSaleItem[]
+
+  @@map("menu_items")
+}
+
+model ItemVariant {
+  id         String    @id @default(cuid())
+  itemId     String
+  nameEs     String
+  nameEn     String
+  nameAr     String?
+  priceDelta Decimal   @default(0) @db.Decimal(10, 2)
+  isDefault  Boolean   @default(false)
+  createdAt  DateTime  @default(now())
+
+  item       MenuItem  @relation(fields: [itemId], references: [id], onDelete: Cascade)
+
+  @@map("item_variants")
+}
+
+model ModifierGroup {
+  id            String     @id @default(cuid())
+  itemId        String
+  nameEs        String
+  nameEn        String
+  nameAr        String?
+  required      Boolean    @default(false)
+  maxSelections Int        @default(1)
+  createdAt     DateTime   @default(now())
+
+  item          MenuItem   @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  modifiers     Modifier[]
+
+  @@map("modifier_groups")
+}
+
+model Modifier {
+  id         String        @id @default(cuid())
+  groupId    String
+  nameEs     String
+  nameEn     String
+  nameAr     String?
+  priceDelta Decimal       @default(0) @db.Decimal(10, 2)
+  createdAt  DateTime      @default(now())
+
+  group      ModifierGroup @relation(fields: [groupId], references: [id], onDelete: Cascade)
+
+  @@map("modifiers")
+}
+
+model ComboDeal {
+  id            String      @id @default(cuid())
+  nameEs        String
+  nameEn        String
+  nameAr        String?
+  descriptionEs String?
+  descriptionEn String?
+  descriptionAr String?
+  price         Decimal     @db.Decimal(10, 2)
+  taxRate       Decimal     @default(10) @db.Decimal(5, 2)
+  imageUrl      String?
+  isActive      Boolean     @default(true)
+  displayOrder  Int         @default(0)
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+
+  items         ComboItem[]
+
+  @@map("combo_deals")
+}
+
+model ComboItem {
+  id       String    @id @default(cuid())
+  comboId  String
+  itemId   String
+  quantity Int       @default(1)
+
+  combo    ComboDeal @relation(fields: [comboId], references: [id], onDelete: Cascade)
+  item     MenuItem  @relation(fields: [itemId], references: [id])
+
+  @@map("combo_items")
+}
+
+// ─── Orders ──────────────────────────────────────────────────────────────────
+
+model Order {
+  id                String      @id @default(cuid())
+  orderNumber       String      @unique @default(cuid())
+  customerName      String
+  customerEmail     String
+  customerPhone     String
+  orderType         OrderType   @default(PICKUP)
+  status            OrderStatus @default(PENDING)
+  subtotal          Decimal     @db.Decimal(10, 2)
+  total             Decimal     @db.Decimal(10, 2)
+  notes             String?
+  stripeSessionId   String?
+  stripePaymentIntent String?
+  estimatedPickupAt DateTime?
+  isLastHourOrder   Boolean     @default(false)
+  createdAt         DateTime    @default(now())
+  updatedAt         DateTime    @updatedAt
+
+  items             OrderItem[]
+  statusHistory     OrderStatusHistory[]
+
+  @@map("orders")
+}
+
+model OrderItem {
+  id          String   @id @default(cuid())
+  orderId     String
+  itemId      String
+  itemName    String
+  variantName String?
+  quantity    Int
+  unitPrice   Decimal  @db.Decimal(10, 2)
+  modifiers   Json     @default("[]")
+  notes       String?
+
+  order       Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  item        MenuItem @relation(fields: [itemId], references: [id])
+
+  @@map("order_items")
+}
+
+model OrderStatusHistory {
+  id        String      @id @default(cuid())
+  orderId   String
+  status    OrderStatus
+  note      String?
+  createdAt DateTime    @default(now())
+
+  order     Order       @relation(fields: [orderId], references: [id], onDelete: Cascade)
+
+  @@map("order_status_history")
+}
+
+enum OrderType {
+  PICKUP
+  DELIVERY
+}
+
+enum OrderStatus {
+  PENDING
+  PAID
+  PREPARING
+  READY
+  COMPLETED
+  CANCELLED
+  REFUNDED
+}
+
+// ─── Reservations ────────────────────────────────────────────────────────────
+
+model Table {
+  id           String        @id @default(cuid())
+  name         String
+  seats        Int
+  isActive     Boolean       @default(true)
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+
+  reservations Reservation[]
+
+  @@map("tables")
+}
+
+model TimeSlot {
+  id           String        @id @default(cuid())
+  dayOfWeek    Int           // 0=Sunday, 1=Monday ... 6=Saturday
+  startTime    String        // "09:00"
+  endTime      String        // "22:00"
+  maxCovers    Int
+  isActive     Boolean       @default(true)
+  createdAt    DateTime      @default(now())
+
+  reservations Reservation[]
+
+  @@map("time_slots")
+}
+
+model Reservation {
+  id              String              @id @default(cuid())
+  reservationNumber String            @unique @default(cuid())
+  customerName    String
+  customerEmail   String
+  customerPhone   String
+  tableId         String?
+  slotId          String
+  date            DateTime
+  partySize       Int
+  status          ReservationStatus   @default(PENDING)
+  notes           String?
+  createdAt       DateTime            @default(now())
+  updatedAt       DateTime            @updatedAt
+
+  table           Table?              @relation(fields: [tableId], references: [id])
+  slot            TimeSlot            @relation(fields: [slotId], references: [id])
+  statusHistory   ReservationStatusHistory[]
+
+  @@map("reservations")
+}
+
+model ReservationStatusHistory {
+  id            String            @id @default(cuid())
+  reservationId String
+  status        ReservationStatus
+  note          String?
+  createdAt     DateTime          @default(now())
+
+  reservation   Reservation       @relation(fields: [reservationId], references: [id], onDelete: Cascade)
+
+  @@map("reservation_status_history")
+}
+
+enum ReservationStatus {
+  PENDING
+  CONFIRMED
+  SEATED
+  COMPLETED
+  CANCELLED
+  NO_SHOW
+}
+
+// ─── Last-Hour Sales ─────────────────────────────────────────────────────────
+
+model LastHourSale {
+  id        String             @id @default(cuid())
+  date      DateTime           @db.Date
+  isActive  Boolean            @default(true)
+  createdAt DateTime           @default(now())
+  updatedAt DateTime           @updatedAt
+
+  items     LastHourSaleItem[]
+
+  @@unique([date])
+  @@map("last_hour_sales")
+}
+
+model LastHourSaleItem {
+  id             String       @id @default(cuid())
+  saleId         String
+  menuItemId     String
+  salePrice      Decimal      @db.Decimal(10, 2)
+  stockLimit     Int
+  stockRemaining Int
+
+  sale           LastHourSale @relation(fields: [saleId], references: [id], onDelete: Cascade)
+  menuItem       MenuItem     @relation(fields: [menuItemId], references: [id])
+
+  @@map("last_hour_sale_items")
+}
+
+// ─── SEO & Site Settings ─────────────────────────────────────────────────────
+
+model SeoSetting {
+  id          String   @id @default(cuid())
+  pageKey     String
+  locale      String
+  title       String
+  description String
+  keywords    String?
+  ogImageUrl  String?
+  updatedAt   DateTime @updatedAt
+
+  @@unique([pageKey, locale])
+  @@map("seo_settings")
+}
+
+model SiteSetting {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  value     String
+  updatedAt DateTime @updatedAt
+
+  @@map("site_settings")
+}

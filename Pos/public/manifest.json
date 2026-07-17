@@ -1,0 +1,11 @@
+{
+  "name": "Casa POS",
+  "short_name": "CasaPOS",
+  "description": "Restaurant and café point of sale system",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#171717",
+  "lang": "es",
+  "orientation": "any"
+}

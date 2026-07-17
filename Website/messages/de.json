@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "menu": "Speisekarte",
+    "order": "Bestellen",
+    "reserve": "Reservieren",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "delivery": "Lieferung bestellen",
+    "pickup": "Abholung"
+  },
+  "home": {
+    "hero": {
+      "tagline": "Aromen des Libanon im Herzen Valencias",
+      "subtitle": "Libanesisches Bistro & Café mit mediterraner Seele, frischen Zutaten und Rezepten aus Generationen.",
+      "cta_order": "Zur Abholung bestellen",
+      "cta_reserve": "Tisch reservieren",
+      "cta_delivery": "Über Glovo bestellen"
+    },
+    "featured": {
+      "title": "Unsere Favoriten",
+      "subtitle": "Eine Auswahl der Gerichte, die unsere Gäste am meisten lieben"
+    },
+    "story": {
+      "title": "Eine Geschichte, die wie Zuhause schmeckt",
+      "text": "Casa Fenicia entstand aus der Liebe zur libanesischen Küche und mediterraner Gastfreundschaft. Jedes Gericht erzählt eine Geschichte, jede Zutat sorgfältig ausgewählt. Wir laden Sie ein, eine einzigartige kulinarische Reise im Herzen von Ciutat Vella zu erleben.",
+      "cta": "Mehr erfahren"
+    },
+    "last_hour": {
+      "title": "Letzte Chance!",
+      "subtitle": "Sonderangebote nur bis {cutoff} verfügbar",
+      "countdown": "Endet in",
+      "sold_out": "Ausverkauft"
+    }
+  },
+  "menuqr": {
+    "title": "Unsere Speisekarte",
+    "subtitle": "Authentische libanesische Küche im Herzen Valencias",
+    "address": "C/ de la Corretgeria, 4 · Ciutat Vella · Valencia",
+    "phone": "+34 600 345 055",
+    "hours": "Mo–So 9:00–22:00",
+    "print_btn": "Drucken / Als PDF speichern",
+    "lang_switcher": "Sprache",
+    "from": "Ab",
+    "price_note": "Preise inkl. MwSt."
+  },
+  "menu": {
+    "title": "Unsere Speisekarte",
+    "subtitle": "Authentische libanesische Küche, täglich mit frischen Zutaten zubereitet",
+    "all": "Alle",
+    "add_to_cart": "Hinzufügen",
+    "select_variant": "Option wählen",
+    "select_modifiers": "Bestellung anpassen",
+    "required": "Pflicht",
+    "optional": "Optional",
+    "allergens": "Allergene"
+  },
+  "order": {
+    "title": "Wie möchten Sie bestellen?",
+    "pickup_title": "Abholung",
+    "pickup_desc": "Wir bereiten Ihre Bestellung zu und Sie holen sie ab, wann es Ihnen passt. Online-Zahlung erforderlich.",
+    "delivery_title": "Lieferung über Glovo",
+    "delivery_desc": "Lieferungen nach Hause werden über Glovo abgewickelt.",
+    "go_glovo": "Zu Glovo",
+    "cart": "Ihre Bestellung",
+    "cart_empty": "Ihr Warenkorb ist leer",
+    "subtotal": "Zwischensumme",
+    "total": "Gesamt",
+    "checkout": "Jetzt bezahlen",
+    "your_details": "Ihre Angaben",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "notes": "Bestellhinweise (optional)",
+    "pickup_time": "Ungefähre Abholzeit",
+    "order_placed": "Bestellung aufgegeben!",
+    "order_confirmed": "Wir haben Ihre Bestellung erhalten. Sie erhalten eine E-Mail mit allen Details.",
+    "order_number": "Bestellnummer"
+  },
+  "reserve": {
+    "title": "Tisch reservieren",
+    "subtitle": "Reservieren Sie Ihren Tisch bei Casa Fenicia und genießen Sie ein einzigartiges Erlebnis",
+    "date": "Datum",
+    "time": "Uhrzeit",
+    "guests": "Anzahl der Gäste",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "notes": "Besondere Wünsche (optional)",
+    "confirm": "Reservierung bestätigen",
+    "no_slots": "Keine Verfügbarkeit an diesem Datum. Bitte wählen Sie einen anderen Tag.",
+    "success_title": "Reservierung erhalten!",
+    "success_text": "Wir senden Ihnen in Kürze eine Bestätigungs-E-Mail. Bei Fragen rufen Sie uns an: +34 600 345 055.",
+    "guests_label": "{n} Gast | {n} Gäste"
+  },
+  "about": {
+    "title": "Unsere Geschichte",
+    "subtitle": "Eine Leidenschaft für libanesische Küche im Herzen Valencias"
+  },
+  "contact": {
+    "title": "So finden Sie uns",
+    "address": "C/ de la Corretgeria, 4, Ciutat Vella, 46001 València",
+    "phone": "+34 600 345 055",
+    "hours_title": "Öffnungszeiten",
+    "hours": "Montag bis Sonntag: 9:00 – 22:00",
+    "follow": "Folgen Sie uns"
+  },
+  "footer": {
+    "tagline": "Libanesisches Bistro & Café · Valencia",
+    "rights": "Alle Rechte vorbehalten"
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Etwas ist schiefgelaufen",
+    "back": "Zurück",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "confirm": "Bestätigen",
+    "close": "Schließen"
+  }
+}

@@ -1,0 +1,34 @@
+# OS / editor
+.DS_Store
+**/.DS_Store
+*.pem
+
+# Dependencies & build output
+**/node_modules/
+**/.pnp
+**/.next/
+**/out/
+**/build/
+**/.vercel/
+
+# Env / secrets (keep *.example)
+**/.env
+**/.env.local
+**/.env.*.local
+**/vercel-env.import.txt
+
+# Debug / TypeScript
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+**/*.tsbuildinfo
+**/next-env.d.ts
+
+# Generated Prisma clients
+Pos/lib/generated/prisma/
+Website/src/generated/prisma/
+
+# Nested git metadata if recreated
+Pos/.git/
+Website/.git/

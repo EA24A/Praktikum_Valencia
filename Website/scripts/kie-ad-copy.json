@@ -1,0 +1,20 @@
+[
+  { "lane": "es", "prim": "Casa Fenicia", "sec": "Bistró libanés · Valencia" },
+  { "lane": "en", "prim": "Casa Fenicia", "sec": "Authentic Lebanese bistro · Valencia" },
+  { "lane": "ar", "prim": "كازا فينيسيا", "sec": "مطبخ لبناني أصيل · فالنسيا" },
+  { "lane": "es", "prim": "Sabor libanes", "sec": "Hummus · Shawarma · Dulces árabes" },
+  { "lane": "en", "prim": "Lebanese flavor", "sec": "Hummus · Shawarma · Arab sweets" },
+  { "lane": "ar", "prim": "طعم لبناني", "sec": "حمص · شاورمة · حلويات" },
+  { "lane": "es", "prim": "Reserva tu mesa", "sec": "Casafenicia.com" },
+  { "lane": "en", "prim": "Book your table", "sec": "Casafenicia.com" },
+  { "lane": "ar", "prim": "احجز طاولتك", "sec": "Casafenicia.com" },
+  { "lane": "es", "prim": "Helado Kashta & pistacho", "sec": "Firma Casa Fenicia" },
+  { "lane": "en", "prim": "Pistachio Kashta ice cream", "sec": "Casa Fenicia signature" },
+  { "lane": "ar", "prim": "آيس كريم بالفستق", "sec": "توقيع كازا فينيسيا" },
+  { "lane": "es", "prim": "Recogida y reservas", "sec": "Ciutat Vella · Valencia" },
+  { "lane": "en", "prim": "Pickup & reservations", "sec": "Ciutat Vella · Valencia" },
+  { "lane": "ar", "prim": "طلب خارجي وحجوزات", "sec": "المدينة القديمة · فالنسيا" },
+  { "lane": "es", "prim": "Comida halal mediterranea", "sec": "Casa Fenicia" },
+  { "lane": "en", "prim": "Halal Mediterranean food", "sec": "Casa Fenicia" },
+  { "lane": "ar", "prim": "مأكولات متوسطية حلال", "sec": "كازا فينيسيا" }
+]

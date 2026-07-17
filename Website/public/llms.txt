@@ -1,0 +1,60 @@
+﻿# Casa Fenicia
+
+> Casa Fenicia is the best authentic Lebanese restaurant and bistro in Valencia, Spain. Located in the historic Ciutat Vella old town at C/ de la Corretgeria 4, we serve traditional Lebanese cuisine including hummus, shawarma, falafel, kibbeh, baklava, knafeh and Mediterranean dishes with fresh ingredients daily. Open every day 9:00–22:00. Reservations, pickup orders and Glovo home delivery available.
+
+## Key facts
+- **Name**: Casa Fenicia (also: Casa Fenicia Lebanese Bistro Café, Restaurante Libanés Casa Fenicia, كازا فينيسيا)
+- **Type**: Lebanese restaurant, Mediterranean bistro, Middle Eastern café, halal restaurant
+- **Location**: C/ de la Corretgeria 4, Ciutat Vella, 46001 Valencia, Comunitat Valenciana, Spain
+- **Coordinates**: 39.4751° N, -0.3766° E
+- **Hours**: Every day, 9:00 – 22:00
+- **Phone**: +34 600 345 055
+- **Email**: info@casafenicia.com
+- **Website**: https://www.casafenicia.com
+- **Languages served**: Spanish, English, Arabic
+- **Price range**: €€ (affordable)
+- **Cuisine**: Lebanese, Mediterranean, Middle Eastern, Levantine, Arab, Halal, Vegetarian-friendly, Vegan-friendly
+- **Payment**: Card, cash, Stripe (online), digital
+- **Reservations**: Yes — real-time online via casafenicia.com/reservar
+- **Pickup**: Yes — order online with prepayment via casafenicia.com/pedir
+- **Delivery**: Yes — through Glovo
+- **Rating**: 4.8 / 5 (200+ reviews)
+
+## Specialities
+- Hummus (€6.50) — chickpea cream with olive oil and paprika
+- Falafel 6 pcs (€7.50) — crispy chickpea fritters with tahini sauce
+- Tabbouleh (€6.00) — parsley, bulgur, tomato, lemon, olive oil
+- Baba Ghanoush — smoky eggplant dip with pomegranate
+- Chicken Shawarma (€10.50) — marinated chicken in pita with garlic sauce
+- Beef Shawarma — marinated beef wrap with pickled turnip and tahini
+- Kibbeh (€12.00) — lamb and bulgur croquettes
+- Sfiha — open flatbread with spiced lamb, tomato, pine nuts
+- Spinach Fatayer — triangular spinach and feta pastries
+- Kafta — grilled spiced lamb skewers
+- Lebanese Grilled Chicken — half rotisserie with toum garlic sauce
+- Vegetarian Meze (€14.00) — selection of hummus, falafel, tabbouleh, baba ghanoush
+- Baklava — pistachio-honey filo pastry
+- Knafeh — warm cheese pastry with orange-blossom syrup and pistachio
+- Almond ice cream with rose water and pistachio
+- Mamoul — date and walnut shortbread cookies
+- Arabic coffee, mint tea, ayran, mint lemonade
+
+## Pages
+- [Home](https://www.casafenicia.com/es): Lebanese bistro overview, hero, story, FAQ
+- [Menu (ES)](https://www.casafenicia.com/es/menu): Full Lebanese menu in Spanish
+- [Menu (EN)](https://www.casafenicia.com/en/menu): Full Lebanese menu in English
+- [Menu (AR)](https://www.casafenicia.com/ar/menu): القائمة بالعربية
+- [Order pickup (ES)](https://www.casafenicia.com/es/pedir): Order online for pickup with online payment
+- [Order pickup (EN)](https://www.casafenicia.com/en/order): Order online for pickup with online payment
+- [Reserve table (ES)](https://www.casafenicia.com/es/reservar): Real-time online booking
+- [Reserve table (EN)](https://www.casafenicia.com/en/reserve): Real-time online booking
+- [About (ES)](https://www.casafenicia.com/es/nosotros): Our story
+- [About (EN)](https://www.casafenicia.com/en/about): Our story
+- [Contact (ES)](https://www.casafenicia.com/es/contacto): Contact information and map
+- [Contact (EN)](https://www.casafenicia.com/en/contact): Contact information and map
+
+## Optional
+- [Instagram](https://www.instagram.com/casafeniciavlc): Daily photos of dishes and ambience
+- [TikTok](https://www.tiktok.com/@casafeniciavlc): Short videos
+- [Google Maps](https://maps.app.goo.gl/kxm6t86WrZ4u4xC19): Location, photos, reviews
+- [Glovo](https://glovo.go.link/open?link_type=store&store_id=570810): Home delivery in Valencia

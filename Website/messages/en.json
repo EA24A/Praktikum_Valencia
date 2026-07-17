@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "order": "Order",
+    "reserve": "Reserve",
+    "about": "About",
+    "contact": "Contact",
+    "delivery": "Order delivery",
+    "pickup": "Pickup"
+  },
+  "home": {
+    "hero": {
+      "tagline": "Flavours of Lebanon in the heart of Valencia",
+      "subtitle": "Lebanese Bistro & Café with Mediterranean soul, fresh ingredients and generations-old recipes.",
+      "cta_order": "Order for pickup",
+      "cta_reserve": "Book a table",
+      "cta_delivery": "Order via Glovo"
+    },
+    "featured": {
+      "title": "Our favourites",
+      "subtitle": "A selection of the dishes our guests love most"
+    },
+    "story": {
+      "title": "A story that tastes like home",
+      "text": "Casa Fenicia was born out of love for Lebanese cuisine and Mediterranean hospitality. Every dish tells a story, every ingredient carefully chosen. We invite you to experience a unique gastronomic journey in the heart of Ciutat Vella.",
+      "cta": "Learn more"
+    },
+    "last_hour": {
+      "title": "Last Call!",
+      "subtitle": "Special deals available only until {cutoff}",
+      "countdown": "Ends in",
+      "sold_out": "Sold out"
+    }
+  },
+  "menuqr": {
+    "title": "Our Menu",
+    "subtitle": "Authentic Lebanese cuisine in the heart of Valencia",
+    "address": "C/ de la Corretgeria, 4 · Ciutat Vella · Valencia",
+    "phone": "+34 600 345 055",
+    "hours": "Mon–Sun 9:00–22:00",
+    "print_btn": "Print / Save as PDF",
+    "lang_switcher": "Language",
+    "from": "From",
+    "price_note": "Prices include VAT"
+  },
+  "menu": {
+    "title": "Our Menu",
+    "subtitle": "Authentic Lebanese cuisine, crafted with fresh ingredients every day",
+    "all": "All",
+    "add_to_cart": "Add",
+    "select_variant": "Select an option",
+    "select_modifiers": "Customize your order",
+    "required": "Required",
+    "optional": "Optional",
+    "allergens": "Allergens"
+  },
+  "order": {
+    "title": "How would you like your order?",
+    "pickup_title": "Pickup",
+    "pickup_desc": "We prepare your order and you collect it whenever you're ready. Online payment required.",
+    "delivery_title": "Delivery via Glovo",
+    "delivery_desc": "Home deliveries managed through Glovo.",
+    "go_glovo": "Go to Glovo",
+    "cart": "Your order",
+    "cart_empty": "Your cart is empty",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "checkout": "Pay now",
+    "your_details": "Your details",
+    "name": "Full name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "notes": "Order notes (optional)",
+    "pickup_time": "Approximate pickup time",
+    "order_placed": "Order placed!",
+    "order_confirmed": "We've received your order. We'll send you an email with all the details.",
+    "order_number": "Order number"
+  },
+  "reserve": {
+    "title": "Book a table",
+    "subtitle": "Reserve your table at Casa Fenicia and enjoy a unique experience",
+    "date": "Date",
+    "time": "Time",
+    "guests": "Number of guests",
+    "name": "Full name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "notes": "Special requests (optional)",
+    "confirm": "Confirm booking",
+    "no_slots": "No availability for this date. Please choose another day.",
+    "success_title": "Booking received!",
+    "success_text": "We'll send you a confirmation email shortly. If you have any questions, call us at +34 600 345 055.",
+    "guests_label": "{n} guest | {n} guests"
+  },
+  "about": {
+    "title": "Our story",
+    "subtitle": "A passion for Lebanese cuisine in the heart of Valencia"
+  },
+  "contact": {
+    "title": "Find us",
+    "address": "C/ de la Corretgeria, 4, Ciutat Vella, 46001 València",
+    "phone": "+34 600 345 055",
+    "hours_title": "Opening hours",
+    "hours": "Monday to Sunday: 9:00 – 22:00",
+    "follow": "Follow us"
+  },
+  "footer": {
+    "tagline": "Lebanese Bistro & Café · Valencia",
+    "rights": "All rights reserved"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirm": "Confirm",
+    "close": "Close"
+  }
+}
